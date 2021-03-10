@@ -1,0 +1,28 @@
+Quinton Arnaud Black Box Tests
+
+# Test 1 (error)
+# Testing whether or not the program can handle invalid file names
+urfhbeogaggggiua.txttxt
+# End of test
+
+# Test 2 (error)
+# Testing whether or not the program can handle invalid words
+PronunciationDictionary.txt
+thisisnotarealword
+# End of test
+
+# Test 3 (edge case)
+# Testing if program can handle blank input
+
+# End of test
+
+# Test 4 (edge case)
+# Testing if program can handle empty file
+EmptyPronunciationDictionary.txt
+# End of test
+
+# Test 5 (regular)
+# Testing if correctly finds perfect rhymes for the word eraser
+PronunciationDictionary.txt
+eraser
+# End of test
